@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Knowledge3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back2"
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/groupkkk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/itim"
+            android:text="ความรู้"
+            android:textColor="#FFFF"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="35dp"
+            android:background="#00817272"
+            android:textSize="25dp"
+            app:srcCompat="@drawable/menusymbol" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="492dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+
+            android:layout_marginRight="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+                android:text="พันธุ์ลำไยที่นิยมปลูกในปัจจุบัน"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="25dp"
+                app:srcCompat="@drawable/treec" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+
+                android:fontFamily="@font/itim"
+                android:text="      ลำไยที่นิยมปลูกมากที่สุดในขณะนี้คือ ลำไยพันธุ์กะโหลก กลุ่มลำไยอีดอหรือถ้าจะเรียกแบบเมืองเหนือก็ต้องเรียกว่า พันธุ์อีดอ ซึ่งไม่ใช่คำหยาบคายอะไร พืชพันธุ์ใดที่เป็นพันธุ์เบาออกก่อนเขา ภาษาเหนือจะเรียกว่า พันธุ์ดอทั้งนั้น
+
+พันธุ์ลำไยที่พบในปัจจุบันอาจแบ่งได้ 2 ชนิด ตามลักษณะการเจริญเติบโต ลักษณะผล เนื้อ เมล็ด และรสชาติ คือ
+1. ลำไยเครือหรือลำไยเถา มีลำต้นเลื้อยคล้ายเถาวัลย์ มีผลเล็ก เมล็ดโต เนื้อผลมีกลิ่นคล้ายกำมะถัน ปลูกไว้เป็นไม้ประดับมากกว่ารับประทาน
+2. ลำไยต้น แบ่งออกเป็น 2 ชนิด คือ 1) ลำไยพันธุ์พื้นเมือง  2) ลำไยกะโหลก มีอยู่หลายพันธุ์ ดังนี้"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      1) พันธุ์ดอ หรืออีดอ เป็นลำไยพันธุ์เบา คือออกดอกและเก็บผลก่อนพันธุ์อื่น ชาวสวนนิยมปลูกมากที่สุด ราคาดี เป็นพันธุ์ที่เจริญเติบโตดี โดยเฉพาะในดินอุดมสมบูรณ์ และมีน้ำพอเพียง ทนแล้งและทนน้ำได้ดีปานกลาง พันธุ์ดอแบ่งตามสีของยอดอ่อนได้ 2 ชนิดคือ
+* อีดอยอดแดง เจริญเติบโตเร็วมากเมื่อเปรียบเทียบกับอีดอยอดเขียว ลำต้นแข็งแรงไม่ฉีกหักได้ง่าย เปลือกลำต้นสีน้ำตาลปนแดง ใบแบนสีแดงปัจจุบันดอยอดแดงไม่ค่อยนิยมปลูก เนื่องจากออกดอกติดผลไม่ดี และเมื่อผลเริ่มสุกถ้าเก็บไม่ทันผลจะร่วงเสียหายมาก
+* อีดอยอดเขียว มีลักษณะต้นคล้ายอีดอยอดแดง แต่ใบอ่อนเป็นสีเขียว ออกดอกติดผลง่าย แต่อาจไม่สม่ำเสมอ นอกจากนี้ลำไยพันธุ์อีดอยังแบ่งตามลักษณะของก้านช่อผลได้ 2 ชนิด คือ อีดอก้านอ่อน เปลือกของผลจะบาง และอีดอก้านแข็ง เปลือกผลจะหนาผลขนาดค่อนข้างใหญ่ ทรงผลกลมแป้น เบี้ยวยกบ่าข้างเดียว ผิวสีน้ำตาล มีกระหรือตาห่าง สีน้ำตาลเข้ม เนื้อค่อนข้างเหนียว สีขาวขุ่น เมล็ดขนาดใหญ่ปานกลาง รูปร่างแบนเล็กน้อย"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      2) พันธุ์ชมพูหรือสีชมพู เป็นลำไยพันธุ์กลาง มีรสชาดดี นิยมรับประทาน ทรงพุ่มต้นสูงโปร่ง กิ่งเปราะหักง่าย การเจริญเติบโตดี ไม่ทนแล้ง เกิดดอกติดผลง่ายปานกลาง การติดผลไม่สม่ำเสมอ ช่อผลยาว ผลขนาดใหญ่ปานกลาง ทรงผลค่อนข้างกลม เบี้ยวเล็กน้อย ผิวสีน้ำตาลอมแดง ผิวเรียบ มีกระสีคล้ำตลอดผล เปลือกหนา แข็งและเปราะ เนื้อหนาปานกลาง นิ่มและกรอบ สีชมพูเรื่อๆ ยิ่งผลแก่จัดสีของเนื้อยิ่งเข้ม เนื้อล่อน รสหวาน กลิ่นหอม เมล็ดค่อนข้างเล็ก
+"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      3) พันธุ์แห้ว หรืออีแห้ว เป็นลำไยพันธุ์หนัก ลำต้นไม่ค่อยแข็งแรง เปลือกลำต้นสีน้ำตาลปนแดงเขียว เป็นพันธุ์ที่เจริญเติบโตดีมาก ทนแล้งได้ดี พันธุ์แห้วแบ่งได้เป็น 2 ชนิด คือแห้วยอดแดงและแห้วยอดเขียว ลักษณะแตกต่างกันที่สีของใบอ่อนหรือยอด แห้วยอดแดงมีใบอ่อนเป็นสีแดง แห้วยอดเขียวมีใบอ่อนหรือยอดเป็นสีเขียว เกิดดอกและติดผลค่อนข้างยากอาจให้ผลเว้นปี ช่อดอกสั้น ขนาดผลในช่อมักไม่สม่ำเสมอกัน ผลขนาดใหญ่หรือปานกลาง ทรงผลกลมและเบี้ยว ฐานผลบุ๋ม ผิวสีน้ำตาล มีกระสีคล้ำตลอดผล เปลือกหนา เนื้อหนาแน่น แห้งและกรอบ สีขาวขุ่น รสหวานแหลม กลิ่นหอม มีน้ำปานกลาง เมล็ดขนาดค่อนข้างเล็ก แห้วยอดแดงจะออกดอกง่ายกว่าแห้วยอดเขียว และมีเนื้อสีค่อนข้างขุ่นน้อยกว่า และมีปริมาณน้ำมากกว่าแห้วยอดเขียว
+"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      4) พันธุ์เบี้ยวเขียวหรืออีเบี้ยวเขียว เป็นลำไยพันธุ์หนักเจริญเติบโตดี ทนแล้งได้ดีแต่มักอ่อนแอต่อโรคพุ่มไม้กวาด เกิดดอกยาก มักเว้นปี ช่อผลหลวม สีของผลเมื่อมีขนาดเล็กสีเขียวพันธุ์เบี้ยวเขียว แบ่งได้เป็น 2 ชนิด เบี้ยวเขียวก้านแข็ง (เบี้ยวเขียวป่าเส้า) และเบี้ยวเขียวก้านอ่อน (เบี้ยวเขียวป่าแดด) เบี้ยวเขียวก้านแข็งให้ผลไม่ดกแต่ขนาดผลใหญ่มาก แต่ติดผลน้อยไม่ค่อยนิยมปลูก ส่วนเบี้ยวเขียวก้านอ่อนให้ผลดกเป็นพวงใหญ่ ผลมีขนาดใหญ่ ทรงผลกลมแบนและเบี้ยวมากเห็นได้ชัด ผิวสีเขียวอมน้ำตาล ผิวเรียบ เปลือกหนาและเหนียว เนื้อหนาแห้งกรอบล่อนง่าย สีขาว มีน้ำน้อย รสหวานแหลม กลิ่นหอม เมล็ดค่อนข้างเล็ก"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      5) พันธุ์ใบดำหรืออีดำหรือกะโหลกใบดำ เป็นลำไยพันธุ์กลาง ออกดอกติดผลสม่ำเสมอเจริญเติบโตดีมาก ทนแล้งและน้ำได้ดี ข้อเสียคือ ผลโตเต็มที่จะเล็กกว่าพันธุ์อื่นๆ มีผลขนาดใหญ่ปานกลาง. ค่อนข้างกลม แบนและเบี้ยวเล็กน้อย ผิวสีน้ำตาล ผิวขรุขระ เปลือกหนาและเหนียว ทนทานต่อการขนส่ง เนื้อหนาปานกลาง สีขาวครีม รสหวาน เมล็ดขนาดเล็ก รูปร่างค่อนข้างยาวและแบน"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      6) พันธุ์แดงหรืออีแดงกลม เป็นลำไยพันธุ์กลาง ผลกลม เนื้อมีกลิ่นคาวคล้ายกำมะถัน ทำให้คุณภาพไม่ค่อยดี การเจริญเติบโตดีปานกลาง ไม่ทนแล้ง และไม่มีน้ำขังจึงล้มง่าย มักยืนตายเมื่อเกิดสภาพน้ำขัง หรือปีที่ติดผลดก พันธุ์แดงแบ่งได้เป็น 2 ชนิด คือ แดงเปลือกหนา และแดงเปลือกบาง พันธุ์แดงเกิดดอกและติดผลง่าย ติดผลค่อนข้างคงที่ ผลขนาดใหญ่ปานกลาง ขนาดผลค่อนข้างสม่ำเสมอ ทรงผลกลม ผิวสีน้ำตาลอมแดง ผิวเรียบ เปลือกบาง เนื้อหนาปานกลาง สีขาวครีมเนื้อเหนียว มีน้ำมากจึงมักแฉะ เมล็ดรูปร่างป้อม จุกใหญ่มาก แดงเปลือกหนามีขนาดผลใหญ่กว่า เปลือกหนากว่า เนื้อหนากว่า ส่วนลักษณะอื่นๆ คล้ายคลึงกัน"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      7) พันธุ์อีเหลืองหรือเหลือง มีทรงพุ่มค่อนข้างกลม ออกผลดก กิ่งเปราะจึงหักง่ายเมื่อมีผลดกมากๆ ผลค่อนข้างกลม เนื้อสีขาวนวล เมล็ดกลม"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      8) พันธุ์พวงทอง เป็นพันธุ์ที่ช่อดอกขนาดใหญ่กว้าง ผลทรงค่อนข้างกลมและเบี้ยวเล็กน้อย ผิวสีน้ำตาลมีกระสีน้ำตาล เนื้อหนา กรอบ สีขาวครีม รสหวาน เมล็ดขนาดปานกลางและแบน"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      9) พันธุ์เพชรสาครทวาย จัดว่าเป็นลำไยพันธุ์ทวายคือ สามารถออกดอกมากกว่าหนึ่งครั้งต่อปี มีใบขนาดเล็ก เรียวแหลม ออกดอกและให้ผลผลิตปีละ 2 รุ่น คือ รุ่นแรกออกดอกราวเดือนธันวาคม - มกราคม และเก็บผลได้ประมาณเดือนพฤษภาคม - มิถุนายน รุ่นที่สองออกดอกราวเดือนกรกฎาคมถึงสิงหาคม เก็บเกี่ยวผลได้ในเดือนธันวาคม – มกราคม ผลกลม เปลือกบาง เนื้อมีสีขาวฉ่ำน้ำ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      10) พันธุ์ปู่มาตีนโค้ง มีผลสวยมาก ขนาดใหญ่ สีเขียวให้ผลดก แต่คุณภาพและรสชาติไม่ดี กลิ่นคาว ปัจจุบันพันธุ์นี้ลดลงเป็นอย่างมาก คงมีแต่สวนเก่าๆ ซึ่งมีเพียงบางต้นเท่านั้น"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/itim"
+
+                android:text="      11) พันธุ์ตลับนาค ผลขนาดใหญ่ ค่อนข้างกลม ผิวเปลือกเรียบ เนื้อหนา สีขาวใส เมล็ดเล็ก รสไม่ค่อยหวานจัด"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/chatbot8"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="330dp"
+            app:srcCompat="@drawable/sdsd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/qr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/qrcode" />
+
+        <ImageView
+            android:id="@+id/m3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/placeholderrr" />
+
+        <ImageView
+            android:id="@+id/homek3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/house" />
+
+        <ImageView
+            android:id="@+id/Kw3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rrrrrr" />
+
+        <ImageView
+            android:id="@+id/inf4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/avatar" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Knowledge1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backk"
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/groupkkk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:textColor="#FFFF"
+            android:fontFamily="@font/itim"
+            android:text="ความรู้" />
+
+        <ImageButton
+            android:id="@+id/lll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="35dp"
+            android:background="#00817272"
+            android:textSize="25dp"
+            app:srcCompat="@drawable/menusymbol" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/texta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/itim"
+            android:text="การปลูกลำไยในประเทศไทย"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/treeaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/treeaa" />
+
+        <TextView
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/itim"
+            android:text="      พื้นที่ปลูกลำไยส่วนใหญ่อยู่ภาคเหนือ ซึ่งอาจกล่าวได้ว่า ภูมิประเทศและภูมิอากาศเหมาะสำหรับการปลูกลำไยเป็นอันมาก โดยเฉพาะอย่างยิ่งบริเวณจังหวัดเชียงใหม่ และจังหวัดลำพูน สามารถสร้างรายได้แก่เกษตรกรได้อย่างดียิ่ง และด้านเทคโนโลยีการปลูกและผลิตเข้าเสริมและพัฒนาไปสู่การผลิตอย่างจริงจัง จึงได้มีการขยายผลการส่งเสริมการปลูกและผลิตไปสู่พื้นที่ในจังหวัดอื่นๆ ด้วย รวม 36 จังหวัดของประเทศไทย พื้นที่รวม 423,618 ไร่และมีแนวโน้มเพิ่มพื้นที่มากยิ่งขึ้น"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/chatbot6"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="300dp"
+            app:srcCompat="@drawable/sdsd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/qr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/qrcode" />
+
+        <ImageView
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/placeholderrr" />
+
+        <ImageView
+            android:id="@+id/homek1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/house" />
+
+        <ImageView
+            android:id="@+id/Kw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rrrrrr" />
+
+        <ImageView
+            android:id="@+id/inf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/avatar" />
+
+    </LinearLayout>
+</LinearLayout>

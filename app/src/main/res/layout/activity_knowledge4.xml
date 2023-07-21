@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    android:orientation="vertical"
+    tools:context=".Knowledge4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back3"
+            android:layout_width="36dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/groupkkk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/itim"
+            android:text="ความรู้"
+            android:textColor="#FFFF"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="35dp"
+            android:background="#00817272"
+            android:textSize="25dp"
+            app:srcCompat="@drawable/menusymbol" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="496dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+
+                android:layout_marginRight="25dp"
+                android:fontFamily="@font/itim"
+
+                android:text="การปลูกลำไย "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="การเตรียมพื้นที่ปลูก "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+
+
+                android:fontFamily="@font/itim"
+
+                android:text="      1) การเตรียมพื้นที่ปลูกลำไยในที่ลุ่ม พื้นที่ลุ่มส่วนมากเปลี่ยนจากพื้นที่นาเป็นสวนลำไย ลักษณะพื้นที่นั้นมักมีน้ำท่วมขังในช่วงฤดูฝน สภาพดินเป็นดินเหนียว มีระดับน้ำใต้ดินสูง จึงต้องขุดร่องแล้วดินที่ขุดขึ้นมาถมให้เป็นแปลงสูงพอให้พ้นน้ำท่วมขัง แปลงปลูกควรมีความกว้างประมาณ 6 - 8 เมตร ร่องน้ำระหว่างแปลงกว้างประมาณ 1 - 2 เมตร ลึก 0.5 - 1.5 เมตร ถ้าต้องการดินขึ้นถมแปลงมากๆ ก็ขุดให้ลึก หลังจากขุดเสร็จควรปล่อยให้ดินยุบตัวสักระยะหนึ่งจึงทำการวางระยะปลูก"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      2) การเตรียมพื้นที่ปลูกลำไยในที่ดอน พื้นที่ดอนจะเป็นพื้นที่น้ำท่วมไม่ถึง เช่น พื้นที่ป่าเปิดใหม่หรือพื้นที่ที่ใช้ปลูกพืชไร่ การเตรียมพื้นที่ดอนเพื่อทำสวนลำไยต้องพิจารณาถึงปัจจัยเรื่องการให้น้ำแก่ต้นลำไย ควรวางแผนและจัดเตรียมหาแหล่งน้ำไว้ให้พร้อมสำหรับอนาคต พร้อมทั้งปลูกพืชบังลม เนื่องจากพื้นที่ดอนโดยเฉพาะอย่างยิ่งที่เชิงเขาลมมักจะพัดแรงจัดถ้าไม่มีการป้องกัน อาจทำให้ต้นลำไยเกิดการโค่นล้มเสียหาย นอกจากนี้ในช่วงหน้าแล้งควรทำแนวกันไฟไว้รอบๆ สวน "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      3) ระยะปลูก ระยะปลูกของลำไยมีข้อพิจารณาดังนี้คือ "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+
+
+                android:fontFamily="@font/itim"
+
+                android:text="          3.1. ความอุดมสมบูรณ์ของดิน โดยปกติดินดีมีความอุดมสมบูรณ์สูงต้นลำไยย่อมจะมีขนาดลำต้นและทรงต้น ตลอดจนการแผ่กระจายของรากกว้างกว่าการปลูกในดินไม่สมบูรณ์ นอกจากนี้ถ้าเป็นที่ลุ่มระดับน้ำใต้ดินสูง การระบายน้ำไม่ค่อยดีควรปลูกระยะชิด เพื่อให้ได้จำนวนต้นต่อพื้นที่สูง เนื่องจากลำไยที่ปลูกในสภาพเช่นนี้มักอายุไม่ยืน อาจเก็บผลได้ เพียง 5 - 10 ปี"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="          3.2. ขนาดของทรงพุ่ม ลำไยมีนิสัยการออกดอกตรงปลายกิ่ง เมื่อทรงพุ่มชนกัน บริเวณนั้นจะไม่ออกดอก และจะเจริญในด้านความสูงเนื่องจากแก่งแย่งแสง ทำให้ต้นสูงไม่สะดวกต่อการเก็บเกี่ยวผลผลิต"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      3.3. การจัดการ ในกรณีที่ต้องการจะปลูกระยะชิดต้องมีการจัดการที่ดีเช่น การตัดแต่งกิ่งเพื่อควบคุมทรงต้น หรือตัดต้นเว้นต้น เมื่อทรงพุ่มชนกัน ระยะปลูกที่เหมาะสมของลำไยปกติจะอยู่ระหว่าง 8 - 12 x 8 - 12 เมตร แต่ถ้าต้องใช้ประโยชน์จากพื้นที่ให้มากควรปลูกระยะชิด ซึ่งจะได้จำนวนต้นต่อพื้นที่สูง อาจใช้ระยะ4 x 4 เมตร 5 x 5 เมตร หรือ 6 x 6 เมตร ลำไยจะเริ่มออกผลในปีที่ 2 - 3 การปลูกระยะชิดให้ผลผลิตต่อไร่สูงในระยะแรกและเมื่อทรงพุ่มชนกันต้องตัดต้นเว้นต้น จะได้ระยะปลูกเท่ากับ8 x 8 เมตร 10 x 10 เมตร หรือ 12 x 12 เมตร ตามลำดับ"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+
+                android:fontFamily="@font/itim"
+
+                android:text="      4) การเตรียมหลุมปลูก ควรดูสภาพความอุดมสมบูรณ์ของดินเป็นหลัก ดินสมบูรณ์การเตรียมกลุ่มไม่ต้องลึก (หลุมเล็ก) ดินที่ไม่อุดมสมบูรณ์ควรเตรียมหลุมขนาดใหญ่ ถ้าพื้นที่เป็นที่ดินควรขุดหลุมให้กว้างและลึก แต่ถ้าเป็นที่ลุ่มอาจเตรียมหลุมขนาดเล็กหรืออาจเอาดินจากที่อื่นมากองให้เป็นโคกให้มีฐานกว้างประมาณ 1.5 เมตร สูงพันระดับน้ำสูงสุดขึ้นไปอีก 1 เมตร โดยทั่วไปขนาดของหลุมกว้าง x ยาว x สูง เท่ากับ 0.3 x 0.3 x 0.3 เมตร ถึง 1.0 x 1.0 x 1.0 เมตร เวลาขุดหลุมควรจะแยกดินชั้นบนและดินชั้นล่างนำอินทรีย์วัตถุ เช่น ปุ๋ยหมัก หรือปุ๋ยคอกเก่าๆ ประมาณ 1 บุ้งกี๋ ผสมบนดินที่ขุดขึ้นมาและใส่ร๊อคฟอสเฟต หรือกระดุกป่นอีก 100 กรัม คลุกเคล้าดินกับปุ๋ยให้เข้ากันดี จากนั้นนำดินชั้นบนใส่ลงก้นหลุม และดินชั้นล่างขึ้นไว้ข้างบน"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      5) การเลือกพันธุ์ปลูก พันธุ์ที่นิยมปลูกกันมากที่สุดในปัจจุบันคือ พันธุ์อีดอ รองลงมาได้แก่ พันธุ์สีชมพู แห้วและเบี้ยวเขียว การเลือกพันธุ์ที่จะนำไปปลูกนับว่าเป็นสิ่งสำคัญมาก จะต้องคัดเลือกกิ่งพันธุ์จากต้นที่ออกดอกติดผลสม่ำเสมอและปราศจากโรคโดยเฉพาะอย่างยิ่งโรคพุ่มไม้กวาด ซึ่งโรคนี้สามารถถ่ายทอดเชื้อไปกับกิ่งพันธุ์"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      6) ฤดูปลูกลำไยสามารถปลูกได้ตลอดปีแต่ในช่วงที่เหมาะสมคือ ปลายฤดูฝน(กันยายนถึงตุลาคม) ซึ่งมีความชื้นในดินและอากาศพอเหมาะ ลำไยจะเจริญเติบโตได้ดีและไม่ค่อยมีโรคและแมลงรบกวน แต่จะต้องให้น้ำบ้าง เกษตรกรจังหัดเชียงใหม่และลำพูนมักนิยมปลูกในช่วงต้นฤดูฝนตั้งแต่เดือนกรกฎาคมเป็นต้นไป เนื่องจากไม่ต้องเสียเวลาในการรดน้ำ แต่ต้องระมัดระวังเรื่องน้ำขังบริเวรหลุมปลูกจึงต้องหมั่นคอยดูแลเมื่อมีน้ำขังต้องระบายน้ำออกจากหลุม"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/itim"
+
+                android:text="      7) วิธีปลูกส่วนใหญ่ปลูกด้วยกิ่งตอนซึ่งจะชำในชะลอมไม้ไผ่สาน ทางภาคเหนือ เรียกว่า “เป๊าะ” การปลูกจะขุดตรงกลางหลุมที่เตรียมไว้ลึกประมาณ 1 ช่วงจอบ ใส่ฟูราดานรองก้นหลุมประมาณครึ่งช้อนแกง กันปลวกและแมลงในดิน แล้ววางกิ่งพันธุ์ลงทั้ง “เป๊าะ” กลบดินให้แน่นปักหลักกันลมโยก ในกรณีที่ชำกิ่งตอนลงถุงพลาสติกดำ จะต้องเอาถุงพลาสติกดำออกก่อนแล้วจึงนำกิ่งพันธุ์ลงปลูก"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/chatbot9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            app:srcCompat="@drawable/sdsd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/qr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            app:srcCompat="@drawable/qrcode" />
+
+        <ImageView
+            android:id="@+id/m4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/placeholderrr" />
+
+        <ImageView
+            android:id="@+id/homek4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/house" />
+
+        <ImageView
+            android:id="@+id/Kw4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rrrrrr" />
+
+        <ImageView
+            android:id="@+id/inf5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/avatar" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    android:orientation="vertical"
+    tools:context=".fogotpass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bpass1"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="200dp"
+            app:srcCompat="@drawable/groupkkk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView127"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            app:srcCompat="@drawable/checka" />
+
+        <ImageView
+            android:id="@+id/imageView129"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            app:srcCompat="@drawable/z" />
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="ตรวจสอบ"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="กรอกหมายเลข OTP ที่ท่านได้รับ "
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="ภายในเวลา 30 วินาที"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextNumber8"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt1"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber5"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt1"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber6"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt1"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber7"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bt1"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/itim"
+        android:gravity="center"
+        android:text="รหัสไม่ถูกต้อง? ขอรหัสอีกครั้ง"
+        android:textColor="#F44336"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="166dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bggggg"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="รับรหัส OTP"
+            android:textColor="#8A7155"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

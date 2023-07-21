@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.app.Activity void onRestoreInstanceState(android.os.Bundle, android.os.PersistableBundle) 0'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

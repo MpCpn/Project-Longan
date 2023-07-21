@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center_horizontal"
+            android:text="เข้าสู่ระบบ"
+            android:textColor="#563413"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/bggggg"
+            android:fontFamily="@font/itim"
+            android:gravity="center|center_vertical"
+            android:hint="อีเมลล์"
+            android:inputType="textPersonName|textEmailAddress"
+            android:textColor="#B2563413"
+            android:textColorHint="#81563413" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/bggggg"
+            android:ems="10"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:hint="รหัสผ่าน"
+            android:inputType="textPassword"
+            android:textColor="#B3563413"
+            android:textColorHint="#81563413" />
+
+        <Button
+            android:id="@+id/login1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/green"
+            android:fontFamily="@font/itim"
+            android:text="เข้าสู่ระบบ"
+            android:textColor="#B3FFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/fogotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="ลืมรหัสผ่านของคุณ ?"
+            android:textColor="#83563413"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/lined" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/itim"
+            android:gravity="center"
+            android:text="เชื่อมต่อโดย"
+            android:textColor="#83563413" />
+
+        <ImageView
+            android:id="@+id/imageView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/lineaas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="229dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/groupg" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="229dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/grouph" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/itim"
+            android:gravity="center|center_vertical"
+            android:text="สมัครสมาชิกเดี๋ยวนี้"
+            android:textColor="#83563413" />
+    </LinearLayout>
+
+</LinearLayout>

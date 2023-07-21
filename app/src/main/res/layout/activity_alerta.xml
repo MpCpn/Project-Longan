@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical"
+    tools:context=".alerta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bal12"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/groupkkk" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/itim"
+            android:text="แจ้งเตือนภัยชาวเกษตร"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/lal12"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menusymbol" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="502dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/itim"
+                android:text="07 ตุลาคม พ.ศ. 2563 ถึง 15 ตุลาคม พ.ศ. 2563"
+                android:textColor="#475B5A"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/earnings" />
+
+                <TextView
+                    android:id="@+id/textView143"
+                    android:layout_width="309dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/itim"
+                    android:text="การเจริญเติบโต :"
+                    android:textColor="#475B5A"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView144"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/itim"
+                    android:text="ผลอ่อน-เก็บเกี่ยวผลผลิค/แตกใบอ่อน"
+                    android:textColor="#475B5A" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView133"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/surfac" />
+
+                <TextView
+                    android:id="@+id/textView145"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/itim"
+                    android:text="ปัญหาที่ควรระวัง :"
+                    android:textColor="#475B5A"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView146"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/itim"
+                    android:text="โรคใบไหม้และผลเน่า หรือโรคราน้ำฝน (เชื้อรา)"
+                    android:textColor="#475B5A" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView135"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/cloudy" />
+
+                <TextView
+                    android:id="@+id/textView148"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/itim"
+                    android:text="ปัจจัยด้านสภาพอากาศ :"
+                    android:textColor="#475B5A"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView149"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
+                    android:text="มีฝนตก และฝนตกหนักบางพื้นที่"
+                    android:textColor="#475B5A" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView134"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/magnglass" />
+
+                <TextView
+                    android:id="@+id/textView147"
+                    android:layout_width="297dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/itim"
+                    android:text="ข้อสังเกตลักษณะ/อาการที่พบ :"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView150"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/itim"
+                    android:text="อาการที่ใบ กิ่งและยอด ใบอ่อน กิ่งอ่อนและยอดอ่อนมีอาการ ไหม้สีน้ำตาลเข้ม มักพบเส้นใยสีขาวของเชื้อราสาเหตุโรคขึ้น ปกคลุม ต่อมาส่วนที่เป็นโรคจะแห้งอย่างรวดเร็ว "
+                    android:textColor="#475B5A" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView136"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/surface" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/itim"
+                    android:text="แนวทางป้องกัน/แก้ไข :"
+                    android:textColor="#475B5A"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView152"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
+                    android:text="1. หมั่นสำรวจสวนอย่างสม่ำเสมอ โดยเฉพาะช่วงฝนตกชุก"
+                    android:textColor="#475B5A" />
+
+                <TextView
+                    android:id="@+id/textVriew153"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
+                    android:text="2. ทำความสะอาดเครื่องมือที่ใช้ตัดแต่งส่วนที่เป็นโรคทุกครั้ง"
+                    android:textColor="#475B5A" />
+
+                <TextView
+                    android:id="@+id/textView1r54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
+                    android:text="3. เก็บส่วนของพืชที่เป็นโรคที่ร่วงหล่นลงพื้น นำไปทำลาย นอกแปลงปลูก เพื่อป้องกันการแพร่ระบาด"
+                    android:textColor="#475B5A" />
+
+                <TextView
+                    android:id="@+id/textView156r"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/itim"
+                    android:text="4. หลังจากเก็บผลผลิตแล้ว ควรตัดแต่งทรงพุ่มให้โปร่ง  ให้อากาศ    ถ่ายเทได้สะดวก เพื่อลดความชื้น"
+                    android:textColor="#475B5A" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/chatbot3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            app:srcCompat="@drawable/sdsd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/qralt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/qrcode" />
+
+        <ImageView
+            android:id="@+id/malt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/placeholderrr" />
+
+        <ImageView
+            android:id="@+id/halt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/house" />
+
+        <ImageView
+            android:id="@+id/kalt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rrrrrr" />
+
+        <ImageView
+            android:id="@+id/inflt12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/avatar" /></LinearLayout>
+
+</LinearLayout>
