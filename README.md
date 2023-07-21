@@ -1,3 +1,3 @@
 # Project-Longan
 
-Mobile App JAVA Android studio 
+Project-Longan Mobile App use JAVA & Firebase 
